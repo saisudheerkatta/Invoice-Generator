@@ -44,6 +44,7 @@ function updateInvoice() {
 }
 
 function generatePDF() {
+    console.log("Hello Bro");
   const invoice = document.getElementById("invoice");
   const options = {
     margin: 0.5,
